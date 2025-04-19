@@ -8,7 +8,7 @@ namespace DotNetCoreSqlDb.Models
         public int ID { get; set; }
         public string? Description { get; set; }
 
-        [DisplayName("Register Your Student Info and When You'll be Starting")]
+        [DisplayName("Date When You Will Be Starting")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime CreatedDate { get; set; }
